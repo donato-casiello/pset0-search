@@ -7,13 +7,28 @@
         <title>Search</title>
     </head>
     <body>
-        <h1>This is the Google Search page</h1>
-        <h1>This is a header to check the branching in vscode</h1>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-        <a href="image.html">Image</a>
-        <a href="a_search.html">Advanced Search</a>
+        <div class="one">
+            <div class="nav">
+                    <ul>
+                        <li class="list-nav"><a href="image.html">Image Search</a></li>
+                        <li class="list-nav"><a href="a_search.html">Advanced Search</a></li>
+                    </ul>
+            </div>
+
+            <div class="logo">
+                <img src="search_logo-cut.png" alt="google" width="200">
+            </div>
+
+            <div class="form">
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q" id="form">
+                    <input type="submit" value="Google Search" id="search_btn">
+                </form>
+            </div>
+
+            <div class="footer">
+                <p>Here will be the footer</p>
+            </div>
+        </div>
     </body>
 </html>
