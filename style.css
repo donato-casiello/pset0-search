@@ -1,5 +1,4 @@
 .one {
-    background-color: aqua;
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr;
@@ -13,7 +12,6 @@
 }
 
 .nav {
-    background-color: yellow;
     font-size: small;
     display: flex;
     flex-direction: row;
@@ -38,14 +36,12 @@ a:hover {
 }
 
 .logo {
-    background-color: bisque;
     display: flex;
     align-items: last baseline;
     justify-content: center;
 }
 
 .form {
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +54,9 @@ a:hover {
     justify-content: center;
     height: 50px;
     width: 35rem;
-    border-radius: 25em;
+    border: 1px solid;
+    border-color: rgb(223, 225, 229);
+    border-radius: 24px;
     font-size: 18px;
     text-align: center;
 }
@@ -77,9 +75,48 @@ a:hover {
 }
 
 #form:focus {
-    
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    background-color: #fff;
+    border-color: rgb(223, 225, 229)
 }
 
+#form:focus-visible {
+    outline: none;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 5px;
+}
+
+[type=submit] {
+    color: #3c4043;
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    width: 130px;
+}
+
+[type=submit]:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgb(223, 225, 229)
+
+}
 .footer {
-    background-color: brown;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    padding: 21px 30px;
+}
+
+.made {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    
 }
