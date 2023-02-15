@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3.5fr 3.7fr 2fr;
+    grid-template-rows: 1fr 3.5fr 6fr 4fr;
     grid-template-areas: 
     "nav"
     "logo"
@@ -39,6 +39,7 @@ a:hover {
     display: flex;
     align-items: last baseline;
     justify-content: center;
+
 }
 
 .form {
