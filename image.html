@@ -4,16 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="style.css">
-        <title>Img_Search</title>
+        <title>Image</title>
     </head>
     <body>
-        <a href="index.html">Search</a>
-        <h1>This is the Image Search page</h1>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-            <input type="hidden" name="tbm" value="isch">
-        </form>
+        <div class="one">
+            <div class="nav">
+                <ul>
+                    <li class="list-nav"><a href="index.html">Search</a></li>
+                    <li class="list-nav"><a href="a_search.html">Advanced Search</a></li>
+                </ul>
+        </div>
+
+        <div class="logo">
+            <img src="image_logo.png" alt="google" width="300">
+        </div>
+
+        <div class="form">
+            <form action="https://www.google.com/search">
+                <input autocomplete="off" type="text" name="q" id="form">
+                <div class="btn-div">
+                    <input class="btn" type="submit" value="Image Search">
+                    <input class="btn" type="hidden" name="tbm" value="isch">
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>Italia</p>
+            <div class="made">
+                <p>Created by D.C.</p>
+            </div>
+        </div>
     </body>
 </html>
 <!-- 

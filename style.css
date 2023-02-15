@@ -18,6 +18,11 @@
     justify-content: flex-end;
 }
 
+.nav-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .list-nav {
     margin: 0.8em;
     display: inline-block;
@@ -120,4 +125,13 @@ a:hover {
     justify-content: center;
     font-size: 13px;
     
+}
+
+.adv-form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-input {
+    display: flex;
 }
